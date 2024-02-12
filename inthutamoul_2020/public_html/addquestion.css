@@ -1,0 +1,64 @@
+h1 {
+	text-align: center;
+	color: white;
+}
+
+body {
+	background-color: #303c6c;
+}
+
+.form-container {
+  position: fixed;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  left: 500px;
+  background-color: white;
+}
+
+.form-container {
+  max-width: 350px;
+  padding: 10px;
+ border-color: yellow;
+  color: black;
+
+  box-shadow: rgba(179, 179, 0, 0.4) 5px 5px, rgba(204, 204, 0, 0.3) 10px 10px, rgba(255, 255, 0, 0.2) 15px 15px, rgba(255, 255, 102, 0.1) 20px 20px, rgba(255, 255, 153, 0.05) 25px 25px;
+}
+
+input[type=textarea]{
+  max-width: 300px;
+  padding: 15px;
+  margin: 10px 0 22px 0;
+  border: none;
+ /* background: #c6bd9f;*/
+ background-color: #e0e0d1;
+  color: black;
+}
+
+input[type=submit] {
+	/*background-color: #85c788;*/
+	background-color: #303c6c;
+	width: 100%;
+	color: white;
+	padding: 4px;
+	font-size: 18px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	/*background: #80ff80;*/
+	background-color: #b4dfe5;
+	color: black;
+}
+
+.back, .back:hover, .back:visited {
+	cursor: pointer;
+	position: absolute;
+	left: 10px;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+}
+
+
+

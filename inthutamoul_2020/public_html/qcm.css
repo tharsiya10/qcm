@@ -1,0 +1,143 @@
+h1 {
+	text-align: center;
+}
+
+body {
+	font-size: 18px;
+	/*background-color: #eae7dc;*/
+	background-color: #e3e2df;
+	letter-spacing: 2px;
+
+}
+
+.back, .back:hover, .back:visited {
+	cursor: pointer;
+	position: absolute;
+	left: 10px;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+}
+
+input[type=submit] {
+	/*background-color: #85c788;*/
+	background-color: #303c6c;
+	width: 20%;
+	color: white;
+	padding: 4px;
+	font-size: 18px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	/*background: #80ff80;*/
+	background-color: #b4dfe5;
+	color: black;
+}
+
+input:checked ~ .underline {
+	background: rgb(209,255,255);
+	background: linear-gradient(90deg, rgba(209,255,255,1) 22%, rgba(180,251,251,1) 53%, rgba(153,255,255,1) 92%);
+	/*background-color: #99ffff;*/
+}
+
+/* The container */
+.container {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+/* Hide the browser's default radio button */
+/*.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}*/
+
+/*Pop-up form*/
+.open-new-question, .next-exercice {
+  /*background-color: #555;*/
+  font-size: 14px;
+  color: black;
+  padding: 12px 18px;
+  border: 0.1em solid black;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  margin: 0 0.3em 0.3em 0;
+  cursor: pointer;
+  position: relative;
+  /*left: 370px;*/
+  bottom: 5px;
+  left: 10px;
+  width: 280px;
+  transition: all 0.2s;
+}
+
+.next-exercice {
+  left: 800px;
+  bottom: 5px;
+}
+
+.open-new-question:hover, .next-exercice:hover {
+	color: white;
+	background-color: black;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 300px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  background-color: white;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 350px;
+  padding: 10px;
+  border-color: black;
+  color: black;
+
+  box-shadow: rgba(179, 179, 0, 0.4) 5px 5px, rgba(204, 204, 0, 0.3) 10px 10px, rgba(255, 255, 0, 0.2) 15px 15px, rgba(255, 255, 102, 0.1) 20px 20px, rgba(255, 255, 153, 0.05) 25px 25px;
+}
+
+.form-container input[type=text]{
+  width: 87%;
+  padding: 15px;
+  margin: 10px 0 22px 0;
+  border: none;
+  background: #c6bd9f;
+  color: black;
+}
+
+.form-container .btn {
+  color: white;
+  width: 100%;
+  margin-bottom:10px;
+}
+
+.form-container .btn-cancel {
+  color: white;
+  background-color: #ff3333;
+  width: 100%;
+  margin-bottom:10px;
+}
+
+.form-container .btn-cancel:hover {
+  color: white;
+  background-color: #cc0000;
+}
+

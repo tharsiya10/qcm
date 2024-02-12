@@ -1,0 +1,71 @@
+h1, h2 {
+	text-align: center;
+	color: white;
+}
+
+body {
+	background-color: #47599e;
+	
+	letter-spacing: 2px;
+}
+
+table {
+	width: 50%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	position: relative;
+	top: 20px;
+	left: 360px;
+	
+	background-color: white;
+}
+
+thead{
+	font-size: 22px;
+}
+
+tbody{
+	font-size: 18px;
+}
+
+thead, tbody, th, td {
+	border-bottom: 1px solid black;
+}
+
+th, td{
+	padding: 8px;
+}
+
+thead th:nth-child(1){
+	text-align: left;
+}
+
+thead th:nth-child(2){
+	text-align: center;
+
+}
+
+thead th:nth-child(3){
+	text-align: center;
+}
+
+tbody td:nth-child(1){
+	text-align: left;
+}
+
+tbody td:nth-child(2){
+	text-align: center;
+}
+
+tbody td:nth-child(3){
+	text-align: center;
+}
+
+
+tbody tr:hover{
+	background-color: #cad0e7;
+}
+
+.link-button{
+	color: black;
+}

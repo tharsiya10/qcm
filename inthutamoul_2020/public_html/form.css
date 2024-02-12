@@ -1,0 +1,57 @@
+body {
+	text-align: center;
+	background: rgb(255,216,144);
+	background: linear-gradient(90deg, rgba(255,216,144,1) 0%, rgba(195,68,49,1) 50%, rgba(196,61,44,1) 100%);
+}
+
+
+table {
+	margin-top:60px;
+	margin-left:35%;
+	margin-right:30%;
+	width: 30%;
+
+}
+
+#question {
+	width: 50%;
+	
+}
+
+
+textarea {
+	overflow: auto
+	background-color: white;
+}
+
+input[type=checkbox] {
+	cursor: pointer;
+	
+}
+
+[type=checkbox]:checked {
+	background: #99ff99;
+}
+
+
+	.back, .back:hover, .back:visited {
+			cursor: pointer;
+			position: absolute;
+			left: 10px;
+			background-color: black;
+			color: white;
+			font-size: 16px;
+		}
+
+
+#next, #finish{
+	cursor: pointer;
+	background-color: #ffe6cc;
+	height: 40px;
+	width: 100px;
+}
+
+#next:hover, #finish:hover {
+	background-color: #ffcccc;
+}
+

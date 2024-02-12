@@ -1,0 +1,158 @@
+h1, h2 {
+	text-align: center;
+}
+
+body {
+	background-color: #eae7dc;
+	/*background-color: #e3e2df;*/
+	letter-spacing: 2px;
+}
+
+.tableau table {
+	width: 50%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	position: relative;
+	top: 20px;
+	left: 360px;
+	
+	background-color: white;
+}
+
+.tableau thead{
+	font-size: 22px;
+}
+
+.tableau tbody{
+	font-size: 18px;
+}
+
+.tableau thead, .tableau tbody, .tableau th, .tableau td {
+	border-bottom: 1px solid black;
+}
+
+
+.tableau th, .tableau td{
+	padding: 8px;
+}
+
+.tableau thead th:nth-child(1){
+	text-align: left;
+}
+
+.tableau thead th:nth-child(2){
+	text-align: center;
+
+}
+
+.tableau thead th:nth-child(3){
+	text-align: center;
+}
+
+.tableau tbody td:nth-child(1){
+	text-align: left;
+}
+
+.tableau tbody td:nth-child(2){
+	text-align: center;
+}
+
+.tableau tbody td:nth-child(3){
+	text-align: center;
+}
+
+
+.tableau tbody tr:hover{
+	background-color: #ffff99;
+}
+
+.tableau .link-button {
+	color: black;
+	text-decoration-color: black;
+}
+
+/*Pop-up form*/
+
+.open-button {
+  /*background-color: #555;*/
+  font-size: 14px;
+  color: black;
+  padding: 12px 18px;
+  border: 0.1em solid black;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  margin: 0 0.3em 0.3em 0;
+  cursor: pointer;
+  position: fixed;
+  left: 370px;
+/*  bottom: 23px;
+  right: 28px;
+  width: 280px;*/
+  transition: all 0.2s;
+}
+
+.open-button:hover {
+	color: white;
+	background-color: black;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  background-color: white;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 350px;
+  padding: 10px;
+  border-color: black;
+  color: black;
+
+  box-shadow: rgba(179, 179, 0, 0.4) 5px 5px, rgba(204, 204, 0, 0.3) 10px 10px, rgba(255, 255, 0, 0.2) 15px 15px, rgba(255, 255, 102, 0.1) 20px 20px, rgba(255, 255, 153, 0.05) 25px 25px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text]{
+  width: 87%;
+  padding: 15px;
+  margin: 10px 0 22px 0;
+  border: none;
+  background: #c6bd9f;
+  color: black;
+}
+
+/* When the inputs get focus, do something */
+/*.form-container input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}*/
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color:  #66ff99;
+  color: black;
+  padding: 12px 18px;
+  border: none;
+  cursor: pointer;
+  position: center;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #ff3333;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
